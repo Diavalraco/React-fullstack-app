@@ -1,6 +1,5 @@
 const mongoose =require("mongoose");
-mongoose.connect("mongodb+srv://admin:Maths%40123@cluster0.g2yvi3v.mongodb.net/")
-
+mongoose.connect("")
 const todoSchema = mongoose.Schema({
     title: String,
     description: String,
